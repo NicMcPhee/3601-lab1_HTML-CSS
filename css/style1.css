@@ -17,9 +17,17 @@ body{
   text-align: center;
   font-size: 4rem;
   font-family: 'Libre Barcode 128 Text', cursive;
+  font-weight: normal;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 480px) {
+  #main-title {
+    font-size: 2rem;
+    font-family: 'Exo', sans-serif;
+  }
+}
+
+@media (min-width: 600px) {
   #main-title {
     font-size: 6rem;
   }
@@ -27,7 +35,7 @@ body{
 
 @media (min-width: 1200px) {
   #main-title {
-    font-size: 7rem;
+    font-size: 8rem;
   }
 }
 
