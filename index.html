@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>UMM Computer Science</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" type="text/css" href="./css/style1.css">
   <link href="https://fonts.googleapis.com/css?family=Exo|Fanwood+Text|Libre+Barcode+128+Text" rel="stylesheet">
   <link
@@ -11,11 +12,19 @@
           href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
 </head>
 
-<header class="mdc-toolbar mdc-toolbar--fixed">
-  <div class="mdc-toolbar__row">
-    <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
-      <a href="#" class="material-icons mdc-toolbar__menu-icon">UMM CSci</a>
-      <span class="mdc-toolbar__title">Title</span>
+<header class=" mdc-top-app-bar">
+  <div class="mdc-top-app-bar__row">
+    <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+      <span class="mdc-top-app-bar__title">Choose a style</span>
+      <a href="#">Style 1</a>
+      <a href="#">Style 2</a>
+      <a href="#">Style 3</a>
+      <button class="mdc-icon-button material-icons mdc-top-app-bar__navigation-icon--unbounded">menu</button>
+    </section>
+    <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
+      <button class="mdc-icon-button material-icons mdc-top-app-bar__action-item--unbounded" aria-label="Download">file_download</button>
+      <button class="mdc-icon-button material-icons mdc-top-app-bar__action-item--unbounded" aria-label="Print this page">print</button>
+      <button class="mdc-icon-button material-icons mdc-top-app-bar__action-item--unbounded" aria-label="Bookmark this page">bookmark</button>
     </section>
   </div>
 </header>
